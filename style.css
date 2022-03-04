@@ -1,0 +1,26 @@
+.form-main {
+  width: 500px;
+}
+.form-main form {
+  display: flex;
+  flex-direction: column;
+}
+.input_fields {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #0442bf 0%, #0476d9 100%);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:active {
+  background: linear-gradient(90deg, #0476d9 0%, #0442bf 100%);
+}
